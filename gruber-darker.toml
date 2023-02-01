@@ -1,0 +1,82 @@
+"comment" = { fg = "brown" }
+"constant" = { fg = "quartz" }
+"constant.character.escape" = { fg = "wisteria" }
+"function" = { fg = "niagara" }
+"function.macro" = { fg = "white" }
+"keyword" = { fg = "yellow" }
+"keyword.control" = { fg = "white" }
+"keyword.control.import" = { fg = "yellow" }
+"keyword.operator" = { fg = "white" }
+"keyword.function" = { fg = "white", modifiers = ["italic"] }
+"operator" = { fg = "white" }
+"punctuation" = { fg = "white" }
+"string" = { fg = "green" }
+"string.regexp" = { fg = "white" }
+"tag" = { fg = "white" }
+"type" = { fg = "quartz" }
+"namespace" = { fg = "white" }
+"variable" = { fg = "variable" }
+"variable.builtin" = { fg = "white" }
+"variable.other.member" = { fg = "white" }
+"variable.parameter" = { fg = "white" }
+
+"markup.heading" = "niagara"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "silver", modifiers = ["underlined"] }
+"markup.link.text" = "niagara"
+"markup.raw" = "niagara"
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+
+"ui.background" = { bg = "background" }
+"ui.background.separator" = { fg = "white" }
+"ui.linenr" = { fg = "linenr" }
+"ui.linenr.selected" = { fg = "yellow" }
+"ui.statusline" = { fg = "white", bg = "statusbar" }
+"ui.statusline.inactive" = { fg = "white", bg = "statusbar" }
+"ui.popup" = { fg = "white", bg = "statusbar" }
+"ui.window" = { fg = "white", bg = "statusbar" }
+"ui.help" = { bg = "statusbar", fg = "white" }
+
+"ui.menu" = { fg = "white", bg = "statusbar" }
+"ui.menu.selected" = { fg = "white", bg = "background_highlight" }
+"ui.selection" = { fg = "white", bg = "white" }
+"ui.selection.primary" = { fg = "white", bg = "selection" }
+"ui.cursor.insert" = { bg = "white" }
+"ui.cursor" = { bg = "yellow", fg = "background" }
+"ui.cursorline.primary" = { bg = "background_menu" }
+"ui.highlight" = { bg = "white" }
+"ui.virtual.whitespace" = { fg = "whitespace" }
+
+"diagnostic" = { modifiers = ["underlined"] }
+"ui.gutter" = { bg = "black" }
+"info" = "quartz"
+"hint" = "niagara"
+"debug" = "niagara"
+"warning" = "yellow"
+"error" = "red"
+
+[palette]
+foreground = "#a9b1d6"
+foreground_highlight = "#c0caf5"
+foreground_gutter = "#363b54"
+background = "#181818"
+background_highlight = "#30374b"
+background_menu = "#16161e"
+white = "#ffffff"
+red = "#c73c3f"
+green = "#73c936"
+yellow = "#ffdd33"
+brown = "#cc8c3c"
+quartz = "#95a99f"
+niagara = "#96a6c8"
+wisteria = "#9e95c7"
+variable = "#f4f4ff"
+whitespace = "#202020"
+statusbar = "#282828"
+linenr = "#52494e"
+selection = "#484848"
