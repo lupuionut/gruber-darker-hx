@@ -44,7 +44,7 @@
 
 "ui.menu" = { fg = "white", bg = "statusbar" }
 "ui.menu.selected" = { fg = "white", bg = "background_highlight" }
-"ui.selection" = { fg = "white", bg = "white" }
+"ui.selection" = { fg = "white", bg = "selection" }
 "ui.selection.primary" = { fg = "white", bg = "selection" }
 "ui.cursor.insert" = { bg = "white" }
 "ui.cursor" = { bg = "yellow", fg = "background" }
